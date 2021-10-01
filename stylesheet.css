@@ -1,5 +1,28 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .paragraph1 {
@@ -10,4 +33,43 @@ body {
     background-color: #b8acd5;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .graph .labels.x-labels {
+    text-anchor: middle;
+  }
+  
+  .graph .labels.y-labels {
+    text-anchor: end;
+  }
+  
+  
+  .graph {
+    height: 500px;
+    width: 800px;
+  }
+  
+  .graph .grid {
+    stroke: #ccc;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+  }
+  
+  .labels {
+    font-size: 13px;
+  }
+  
+  .label-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    fill: black;
+  }
+  
+  .data {
+    fill: #1a073d;
+    stroke-width: 1; 
+  }
 
