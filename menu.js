@@ -1,6 +1,6 @@
 const menuItems = [
-  {title: "HOME" , link: "./index.html"}, 
-  {title: "ABOUT" , link: "./ABOUT/about.html"},
+  {title: "POPCORN CREW" , link: "./index.html"}, 
+  {title: "DESIGN" , link: "./ABOUT/about.html"},
   {title: "THEORY BLOGS" , link: "./THEORY BLOGS/theory blogs.html"}, 
   {title: "CONTACT" , link: "./CONTACT/contact.html"}, 
 ];
