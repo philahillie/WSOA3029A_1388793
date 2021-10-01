@@ -1,13 +1,21 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
+    text-align: center;
 }
 
+.logo {
+    background-color: #b8acd5;
+    padding-top:3em;
+    padding-bottom: 3em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
 
 
 h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 h2 {
@@ -23,16 +31,25 @@ h3 {
 }
 
 .paragraph1 {
-    background-color : #e7e3f2
+    background-color : #e7e3f2;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
 }
 
 .paragraph2 {
     background-color: #b8acd5;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
   }
+
+a {
+    text-align: center;
+}
   
   .graph .labels.x-labels {
     text-anchor: middle;
