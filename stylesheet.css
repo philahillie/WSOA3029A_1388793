@@ -3,10 +3,7 @@ body {
     text-align: justify;
 }
 
-nav {
-    display: flex;
-    text-align: center;
-}
+
 
 h1 {
     text-align: center;
@@ -52,7 +49,7 @@ body {
   }
   
   .graph .grid {
-    stroke: #ccc;
+    stroke: black;
     stroke-dasharray: 0;
     stroke-width: 1;
   }
