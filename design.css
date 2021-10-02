@@ -2,3 +2,13 @@
     width: 50%;
     height: 50%;
 }
+
+.wireframe2 {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+}
