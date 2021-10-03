@@ -15,7 +15,7 @@ a {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1em;
 }
@@ -24,6 +24,121 @@ nav a:hover {
     color: #fff042;
 }
 
+  /* ----------- iPad Pro 12.9" ----------- */    
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    a {
+        font-size: 0.8em;
+        color: white;
+        
+    }
+
+    .menuItems {
+        color: white;
+        list-style:none;
+        display:flex;
+        align-items: center;
+
+        
+        
+       
+    }
+
+    title {
+        font-size: 20px;
+        margin-left: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: center;
+    
+    }
+}
+
+
+/* PC */
+
+   @media only screen 
+   and (min-device-width: 906px) 
+   and (max-device-width: 906px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+   
+       a {
+           font-size: 0.75em;
+           color: white;
+           
+       }
+   }
+   
+   
+   /* PC */
+   @media only screen 
+   and (min-device-width: 906px) 
+   and (max-device-width: 799px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+   
+       a {
+           font-size: 0.5em;
+           color: white;
+           
+       }
+   
+       .menuItems {
+           color: white;
+           list-style:none;
+           display:table-row;
+           align-items: center;
+   
+           
+           
+          
+       }
+   
+       title {
+           font-size: 20px;
+           margin-left: 7em;
+           font-family: 'Courier New', Courier, monospace;
+           justify-content: center;
+       
+       }
+   }
+   
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    a {
+        font-size: 0.6em;
+        color: white;
+        
+    }
+
+    .menuItems {
+        color: white;
+        list-style:none;
+        display:table-row;
+        align-items: center;
+
+        
+        
+       
+    }
+
+    title {
+        font-size: 20px;
+        margin-left: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: center;
+    
+    }
+
+  } 
 
 
 
