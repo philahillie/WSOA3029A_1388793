@@ -1,4 +1,4 @@
-let margin = 50;
+let margin = 20;
 let topMargin = 10;
 let graphHeight = 500;
 let vizArea = d3.select(".viz");
@@ -22,6 +22,10 @@ vizArea
  .attr("transform", `translate (${margin}, 310)`)
  .call (d3.axisBottom(xScale));
 
+//let x = d3.ScalePoint()
+//.domain(["UNDER 18", "18-29", "30-44", "45+"])
+//.range([300,0])
+
 vizArea 
 .selectAll("dots")
 .data(data)
@@ -34,7 +38,6 @@ vizArea
     return yScale (d.y);
 })
 .attr("r", 5)
-
 
 
 

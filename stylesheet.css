@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    background-color: #b8acd5;
 }
 
 .logo {
@@ -30,14 +31,14 @@ h3 {
 
 }
 
-.paragraph1 {
+.style1 {
     background-color : #e7e3f2;
     padding-top: 2em;
     padding-bottom: 2em;
     
 }
 
-.paragraph2 {
+.style2 {
     background-color: #b8acd5;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -49,41 +50,8 @@ body {
 
 a {
     text-align: center;
+    color: black;
 }
   
-  .graph .labels.x-labels {
-    text-anchor: middle;
-  }
   
-  .graph .labels.y-labels {
-    text-anchor: end;
-  }
-  
-  
-  .graph {
-    height: 500px;
-    width: 800px;
-  }
-  
-  .graph .grid {
-    stroke: black;
-    stroke-dasharray: 0;
-    stroke-width: 1;
-  }
-  
-  .labels {
-    font-size: 13px;
-  }
-  
-  .label-title {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 12px;
-    fill: black;
-  }
-  
-  .data {
-    fill: #1a073d;
-    stroke-width: 1; 
-  }
 
