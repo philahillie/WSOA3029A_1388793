@@ -52,6 +52,10 @@ a {
     text-align: center;
     color: black;
 }
+
+.graphTwoHeading {
+    padding-top: 3em;
+}
   
 /* ----------- iPhone X ----------- */
 
@@ -118,6 +122,8 @@ a {
     }
 
 }
+
+
 
   
 
