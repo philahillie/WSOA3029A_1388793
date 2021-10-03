@@ -1,8 +1,8 @@
 const menuItems = [
-  {title: "POPCORN CREW" , link: "/index.html"}, 
-  {title: "DESIGN" , link: "/ABOUT/about.html"},
-  {title: "THEORY BLOGS" , link: "/THEORY BLOGS/theory blogs.html"}, 
-  {title: "CONTACT" , link: "/CONTACT/contact.html"}, 
+  {title: "POPCORN CREW" , link: "./index.html"}, 
+  {title: "DESIGN" , link: "./ABOUT/about.html"},
+  {title: "THEORY BLOGS" , link: "./THEORY BLOGS/theory blogs.html"}, 
+  {title: "CONTACT" , link: "./CONTACT/contact.html"}, 
 ];
 
 window.addEventListener ('DOMContentLoaded', (event) => {
