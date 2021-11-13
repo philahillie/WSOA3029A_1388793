@@ -10,12 +10,12 @@ fetch("https://imdb8.p.rapidapi.com/title/get-ratings?tconst=tt0944947", {
 	.catch(err => console.error(err));
 
 function drawGraph(dataToShow) {
-	let margin = 20;
+	let margin = 30;
 	let topMargin = 10;
 	let graphHeight = 500;
 	let vizArea = d3.select(".viz");
 	let xScale = d3.scalePoint().domain(["0", "UNDER 18", "18-29", "30-44", "45+"]).range([0, 300]);
-	let yScale = d3.scaleLinear().domain([0, 10]).range([300, 0]);
+	let yScale = d3.scaleLinear().domain([5, 10]).range([300, 0]);
 	
 	console.log("inside function", dataToShow.ratingsHistograms);
 	const teenagers = dataToShow.ratingsHistograms["Males Aged under 18"];
@@ -29,6 +29,8 @@ function drawGraph(dataToShow) {
 		{ x: "18-29", y: youngAdults.aggregateRating},
 		{ x: "30-44", y: adults.aggregateRating},
 		{ x: "45+", y: olderAdults.aggregateRating}
+
+		
 	]
 
 	vizArea
