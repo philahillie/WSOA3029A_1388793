@@ -25,7 +25,6 @@ const renderMenu = ()=> {
         newLink.text = item.title;
         newItem.appendChild(newLink);
         navBar.appendChild(newItem);
-
-        
+    
     });
 };
