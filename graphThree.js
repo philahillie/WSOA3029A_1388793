@@ -25,7 +25,7 @@ function drawGraph(dataToShow) {
 	let topMargin = 10;
 	let graphHeight = 500;
 	let vizArea = d3.select(".vizThree");
-	let xScale = d3.scalePoint().domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).range([0, 300]);
+	let xScale = d3.scalePoint().domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).range([0, 600]);
 	let yScale = d3.scaleLinear().domain([5, 10]).range([300, 0]);
 	
 	console.log("inside function");
@@ -57,28 +57,73 @@ function drawGraph(dataToShow) {
 		.attr("transform", `translate (${margin}, 310)`)
 		.call(d3.axisBottom(xScale))
 
-    
+  let color = d3.scaleOrdinal()
+  .domain(["setosa", "versicolor", "virginica" ])
+  .range([ "#440154ff", "#21908dff", "#fde725ff"])
+
+  let highlight = function(d){
+
+    selected_specie = d.Species
+
+    d3.selectAll(".dot")
+      .transition()
+      .duration(200)
+      .style("fill", "lightgrey")
+      .attr("r", 3)
+
+    d3.selectAll("." + selected_specie)
+      .transition()
+      .duration(200)
+      .style("fill", color(selected_specie))
+      .attr("r", 7)
+  }
+
+  // Highlight the specie that is hovered
+  let doNotHighlight = function(){
+    d3.selectAll(".dot")
+      .transition()
+      .duration(200)
+      .style("fill", "lightgrey")
+      .attr("r", 5 )
+  }
+// As seen on https://www.d3-graph-gallery.com/graph/scatter_grouped_highlight.html
+   // Add dots
+//    vizArea
+//   .append('g')
+//   .selectAll("dot")
+//   .data(data)
+//   .enter()
+//   .append("circle")
+//     .attr("class", function (d) { return "dot " + d.Species } )
+//     .attr("cx", function (d) { return x(d.Sepal_Length); } )
+//     .attr("cy", function (d) { return y(d.Petal_Length); } )
+//     .attr("r", 5)
+//     .style("fill", function (d) { return color(d.Species) } )
+//   .on("mouseover", highlight)
+//   .on("mouseleave", doNotHighlight )
+
+// }
     
 
 	//let x = d3.ScalePoint()
 	//.domain(["UNDER 18", "18-29", "30-44", "45+"])
 	//.range([300,0])
 
-	vizArea
-		.selectAll("dots")
-		.data(data)
-		.enter()
-		.append("circle", "fill", 50)
+ 	vizArea
+ 		.selectAll("dots")
+ 		.data(data)
+ 		.enter()
+ 		.append("circle", "fill", 50)
 		.style ("fill", "lightblue")
-		.attr("cx", function (d) {
-			return xScale(d.x);
-		})
-		.attr("cy", function (d) {
-			return yScale(d.y);
-		})
-		.attr("r", 5)
-    .on("mouseover", highLight)
+ 		.attr("cx", function (d) {
+ 			return xScale(d.x);
+ 		})
+ 		.attr("cy", function (d) {
+ 			return yScale(d.y);
+ 		})
+ 		.attr("r", 5)
+     .on("mouseover", highLight)
     .on("mouseleave", doNotHighLight)
 
 
-}
+ }
