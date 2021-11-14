@@ -1,11 +1,11 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-color: #b8acd5;
+    background-color: #0c0e1f;
 }
 
 .logo {
-    background-color: #b8acd5;
+    background-color: #0c0e1f;
     padding-top:3em;
     padding-bottom: 3em;
     padding-left: 10em;
@@ -31,26 +31,30 @@ h3 {
 
 }
 
+body {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .style1 {
-    background-color : #e7e3f2;
+    background-color : #0c0e1f;
     padding-top: 2em;
     padding-bottom: 2em;
     
 }
 
 .style2 {
-    background-color: #b8acd5;
+    background-color: #0c0e1f;
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-  }
 
 a {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .graphTwoHeading {

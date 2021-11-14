@@ -1,5 +1,5 @@
 nav {
-    background-color: black;
+    background-color: #0c0e1f;
     padding: 0.5em;
     color: white;
 
@@ -21,7 +21,7 @@ a {
 }
 
 nav a:hover {
-    color: #fff042;
+    color: #f2ba08;
 }
 
   /* ----------- iPad Pro 12.9" ----------- */    
