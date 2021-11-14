@@ -53,9 +53,22 @@ body {
 
 
 a {
+   
     text-align: center;
     color: white;
+
 }
+
+a:hover {
+    color: #f2ba08;
+}
+
+button {
+    background-color: #482681; 
+    padding: 1em;
+}
+
+
 
 .graphTwoHeading {
     padding-top: 3em;
