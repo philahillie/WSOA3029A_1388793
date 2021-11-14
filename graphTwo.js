@@ -48,6 +48,7 @@ function drawGraph(dataToShow) {
 .data(data)
 .enter()
 .append("circle", "fill", 255)
+.style ("fill","orange")
 .attr("cx",function(d){
       return xScale(d.x);
 })

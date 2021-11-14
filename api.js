@@ -51,7 +51,8 @@ function drawGraph(dataToShow) {
 		.selectAll("dots")
 		.data(data)
 		.enter()
-		.append("circle", "fill", 255)
+		.append("circle", "fill", 50)
+		.style ("fill", "lightblue")
 		.attr("cx", function (d) {
 			return xScale(d.x);
 		})
