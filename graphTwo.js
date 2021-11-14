@@ -13,7 +13,7 @@ function drawGraph(dataToShow) {
 	let margin = 30;
 	let topMargin = 10;
 	let graphHeight = 500;
-	let vizArea = d3.select(".viz");
+	let vizArea = d3.select(".vizTwo");
 	let xScale = d3.scalePoint().domain(["0", "UNDER 18", "18-29", "30-44", "45+"]).range([0, 300]);
 	let yScale = d3.scaleLinear().domain([5, 10]).range([300, 0]);
 	
