@@ -33,6 +33,8 @@ function drawGraph(dataToShow) {
 		
 	]
 
+	
+
   vizArea 
  .append("g")
  .attr("transform", `translate (${margin}, ${topMargin})`)

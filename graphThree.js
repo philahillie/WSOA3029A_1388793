@@ -76,7 +76,9 @@ function drawGraph(dataToShow) {
 		.attr("cy", function (d) {
 			return yScale(d.y);
 		})
-		.attr("r", 5);
+		.attr("r", 5)
+    .on("mouseover", highLight)
+    .on("mouseleave", doNotHighLight)
 
 
 }
