@@ -19,7 +19,7 @@ const renderMenu = ()=> {
 
     menuItems.forEach(item => {
         
-        const newItem = document.createElement("ul");
+        const newItem = document.createElement("li");
         const newLink = document.createElement("a");
         newLink.href = item.link;
         newLink.text = item.title;
