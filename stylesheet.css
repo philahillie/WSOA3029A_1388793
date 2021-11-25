@@ -5,9 +5,9 @@ body {
 }
 
 .logo {
+    height: 10%;
+    width: 10%;
     background-color: #0c0e1f;
-    padding-top:3em;
-    padding-bottom: 3em;
     padding-left: 10em;
     padding-right: 10em;
 }
@@ -34,21 +34,21 @@ h3 {
 body {
     color: white;
     font-family: 'Open Sans', sans-serif;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 7em;
+    padding-right: 7em;
 }
 
 .style1 {
     background-color : #0c0e1f;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     
 }
 
 .style2 {
     background-color: #0c0e1f;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 
@@ -60,7 +60,9 @@ a {
 }
 
 a:hover {
-    color: #f2ba08;
+    color: #0c0e1f;
+    background-color: #f2ba08;
+    
 }
 
 button {
@@ -72,6 +74,20 @@ button {
 
 .graphTwoHeading {
     padding-top: 3em;
+}
+
+.articles {
+    background-color: #482681;
+    display: flexbox;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.articles:hover {
+    background-color: #f2ba08;
+    color: #0c0e1f;
 }
   
 /* ----------- iPhone X ----------- */
@@ -120,6 +136,8 @@ button {
     }
 
 }
+
+
 
 /* ----------- iPad Pro 12.9" ----------- */    
 
