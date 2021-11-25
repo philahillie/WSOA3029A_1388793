@@ -13,7 +13,7 @@ window.addEventListener ('DOMContentLoaded', (event) => {
 
 const renderMenu = ()=> {
 
-    let pathPrefix = window.location.pathname === "/WSOA3029A_1388793/" ? "./" : "../"
+    let pathPrefix = window.location.pathname === "/WSOA3029A_1388793/" ? './' : '../'
     
     const navBar = document.querySelector(".menuItems");
 
@@ -21,7 +21,7 @@ const renderMenu = ()=> {
         
         const newItem = document.createElement("li");
         const newLink = document.createElement("a");
-        newLink.href = item.link;
+        newLink.href = pathPrefix + item.link;
         newLink.text = item.title;
         newItem.appendChild(newLink);
         navBar.appendChild(newItem);
