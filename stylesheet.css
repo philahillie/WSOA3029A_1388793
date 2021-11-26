@@ -89,6 +89,11 @@ button {
     background-color: #f2ba08;
     color: #0c0e1f;
 }
+
+rect:hover {
+    fill: lightblue;
+    
+}
   
 /* ----------- iPhone X ----------- */
 
