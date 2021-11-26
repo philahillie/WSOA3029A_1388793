@@ -3,7 +3,6 @@ nav {
     padding: 0.5em;
     color: white;
     border-bottom: 3px solid white ;
-    align-content: center;
 
 }
 
@@ -18,10 +17,18 @@ a {
     text-decoration: none;
     list-style: none;
     display: flex;
-    flex-wrap: inherit;
-    justify-content: space-evenly;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     padding: 1em;
+    padding: 7.5px 10px 7.5px 0;
+}
+
+.menuList {
+    order: 2;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 nav a:hover {
