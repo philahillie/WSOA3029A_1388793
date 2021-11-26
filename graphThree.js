@@ -28,8 +28,8 @@ vizArea
 .attr("transform", `translate(${margin},510)`)
 .call(d3.axisBottom(xScale));
 
-console.log(xScale(10));
-console.log(yScale(8.9));
+console.log(xScale(1.5));
+console.log(yScale(9.4));
 
 
 
