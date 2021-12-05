@@ -100,6 +100,16 @@ rect:hover {
     fill: lightblue;
     
 }
+
+body {
+    color: white;
+}
+
+svg {
+    background-color: #482681;
+}
+
+
   
 /* ----------- iPhone X ----------- */
 
@@ -150,6 +160,8 @@ rect:hover {
 
 
 
+
+
 /* ----------- iPad Pro 12.9" ----------- */    
 
 /* Portrait and Landscape */
@@ -168,6 +180,8 @@ rect:hover {
     }
 
 }
+
+
 
 
 
