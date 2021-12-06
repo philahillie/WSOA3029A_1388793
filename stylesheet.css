@@ -101,14 +101,22 @@ rect:hover {
     
 }
 
+rect2:hover {
+    color: lightblue;
+    width: 300;
+}
+
 body {
     color: white;
 }
 
 svg {
-    background-color: #482681;
+    color: white;
 }
 
+.barGraphFive {
+    rotate: 90;
+}
 
   
 /* ----------- iPhone X ----------- */
