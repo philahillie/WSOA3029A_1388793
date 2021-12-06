@@ -11,27 +11,30 @@ fetch("https://jikan1.p.rapidapi.com/genre/anime/1/1", {
 .catch(err => {
 	console.error(err);
 });
+
+let data = [
+    
+  {x: "1", y: 9.15},
+  {x: "2", y: 7.2},
+  {x: "3", y: 8.52},
+  {x: "4", y: 8.52},
+  {x: "5", y: 7.98}
+]
  
- let margin = 20;
+ let margin = 30;
  let topMargin = 10;
  let graphHeight = 500;
  let vizArea = d3.select(".vizFour");
  let xScale = d3.scaleLinear().domain([0,5]).range([0,550]);
  let yScale = d3.scaleLinear().domain([5,10]).range([300,0]);
 
- let data = [
-    
-     {x: "1", y: 9.15},
-     {x: "2", y: 7.2},
-     {x: "3", y: 8.52},
-     {x: "4", y: 8.52},
-     {x: "5", y: 7.98}
- ]
 
  vizArea 
   .append("g")
   .attr("transform", `translate (${margin}, ${topMargin})`)
   .call (d3.axisLeft(yScale));
+
+  
 
   vizArea
   .append("g")
