@@ -1,8 +1,13 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
+    font-size: 1em;
+    padding-left: 20em;
+    padding-right: 20em;
     background-color: #0c0e1f;
 }
+
 
 .logo {
     height: 10%;
@@ -11,7 +16,6 @@ body {
     padding-left: 30em;
     padding-right: 30em;
 }
-
 
 h1 {
     text-align: center;
@@ -31,12 +35,10 @@ h3 {
 
 }
 
-body {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    padding-left: 20em;
-    padding-right: 20em;
+
+
+svg {
+    background-color: #482681;
 }
 
 .style1 {
@@ -51,7 +53,6 @@ body {
     padding-top: 5em;
     padding-bottom: 5em;
 }
-
 
 a {
    
@@ -75,7 +76,6 @@ button {
 button:hover {
     color: #f2ba08;
 }
-
 
 
 .graphTwoHeading {
@@ -110,14 +110,14 @@ body {
     color: white;
 }
 
-svg {
-    color: white;
-}
-
 .barGraphFive {
     rotate: 90;
 }
 
+.circle:hover {
+    color: lavender;
+
+}
   
 /* ----------- iPhone X ----------- */
 
@@ -169,7 +169,6 @@ svg {
 
 
 
-
 /* ----------- iPad Pro 12.9" ----------- */    
 
 /* Portrait and Landscape */
@@ -188,6 +187,10 @@ svg {
     }
 
 }
+
+
+
+
 
 
 

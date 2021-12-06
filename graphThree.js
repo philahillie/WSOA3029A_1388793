@@ -15,8 +15,13 @@ let data = [
 
 let margin = 50;
 let vizArea = d3.select(".vizThree");
-let xScale = d3.scaleLinear().domain([0,10]).range([0,500]);
+let xScale = d3.scaleLinear().domain([0,10]).range([0,500]);           
 let yScale = d3.scaleLinear().domain([5,10]).range([500,0]); 
+
+// let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+// valueAxis.renderer.grid.template.strokeOpacity = 1;
+// valueAxis.renderer.grid.template.stroke = am4core.color("white");
+// valueAxis.renderer.grid.template.strokeWidth = 2;
 
 vizArea
 .append('g')
