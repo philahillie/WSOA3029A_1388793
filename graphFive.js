@@ -12,6 +12,8 @@
 // 	console.error(err);
 // });
 
+// as seen from Jonathan Soma YouTube Channel https://www.youtube.com/watch?v=lPr60pexvEM
+
 let width = 500, 
  height =500
 
